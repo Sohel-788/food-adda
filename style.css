@@ -1,0 +1,155 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+}
+section{
+    display:flex;
+    height:600px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+img{
+    width: 90%;
+    max-height: 600px;
+}
+.half-width{
+    width:45%;
+    float: left;
+    margin-left: 5%;
+}
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 130%;
+    letter-spacing: -2%;
+}
+.half-width p{
+    font-weight:medium;
+    font-size: 20px;
+    line-height:160%;
+    letter-spacing: -2%;
+    margin-bottom:40px;
+}
+.half-width .order-btn{
+    text-decoration:none;
+    font-weight: semibold;
+    line-height:130%;
+    padding: 10px 20px;
+    border-radius:25px;
+    background-image:linear-gradient(45deg, yellow,red);
+    background-color:orange;
+    color:#fff;
+    display:inline-block;
+}
+.about-section p{
+    font-weight:regular;
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+}
+.about-section{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.one-third{
+    width: 25%;
+    margin-left:6%;
+    float:left;
+    padding: 10px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius:5px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.one-third h3{
+    font-weight:extra-bold;
+    font-size: 20px;
+}
+.one-third img{
+    width: 100%;
+}
+.adda-info, .adda-meta{
+    margin:20px 0;
+    height:200px
+    
+}
+.one-third-info{
+    width:30%;
+    margin-left: 5%;
+    text-align:center;
+}
+.one-third-info h1{
+    margin-bottom:0;
+    padding-bottom: 0;
+}
+.one-third-info p{
+    font-size: 14px;
+    line-height:130%;
+}
+
+.adda-meta .one-third-info{
+    text-align:left;
+    height:200px;
+}
+.adda-meta h5{
+    margin:0;
+    padding:0;
+}
+.fa {
+    padding: 20px;
+    font-size: 15px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+.fa:hover {
+      opacity: 0.7;
+  }
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+#footer{
+    height:100px;
+    background:#000;
+    margin-bottom: 0;
+    display:block;
+}
+#footer footer{
+    color:gray;
+    text-align:center;
+}
+#footer p{
+    font-size: 15px;
+    color: rgb(204, 204, 204);
+}
